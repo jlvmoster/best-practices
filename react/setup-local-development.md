@@ -104,16 +104,16 @@ In your `package.json` or a separate `.eslintrc.json`, setup your linting rules:
 }
 ```
 
-### .eslintrc.json
+### .eslintrc.js
 
 ```
-{
-  "globals": {
-      "__PATH_PREFIX__": true
-    },
-    "extends": "react-app",
-    "rules": {
-      "react/jsx-pascal-case": "off"
-    }
+module.exports = {
+  globals: {
+    __PATH_PREFIX__: true,
+  },
+  extends: 'react-app',
+  rules: {
+    'react/jsx-pascal-case': 'off'
+  }
 }
 ```
