@@ -76,9 +76,15 @@ Finally, run husky install one more time to install the pre-commit hook:
 husky install
 ```
 
-## Setup Eslint
+## (Optional) Setup Eslint
 
-(Optional) In your `package.json` or a separate `.eslintrc.json`, setup your linting rules:
+Install the react app eslint config package
+
+```
+npm i -D eslint-config-react-app
+```
+
+In your `package.json` or a separate `.eslintrc.json`, setup your linting rules:
 
 ### package.json
 
