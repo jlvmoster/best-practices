@@ -42,14 +42,31 @@ To setup pre-commit on staged files, first setup a lint-staged script in `packag
 {
   ...
   "lint-staged": {
-    "*.{js,jsx}": [
-      "eslint --fix"
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
     ],
-    "*.{html,css,js,jsx,json}": [
+    "*.{html,css,md,json,yaml,yml}": [
       "prettier --write"
     ]
   }
   ...
+}
+```
+
+(optional) Setup a `lintstagedrc.js` file for `Next.js` projects to utilize the `next lint` command:
+
+```
+const path = require('path')
+
+const buildEslintCommand = (filenames) =>
+  `next lint --fix --file ${filenames
+    .map((f) => path.relative(process.cwd(), f))
+    .join(' --file ')}`
+
+module.exports = {
+  '*.{js,jsx,ts,tsx}': [buildEslintCommand, 'prettier --write'],
+  '*.{html,css,md,json,yaml,yml}': ['prettier --write'],
 }
 ```
 
