@@ -42,6 +42,9 @@ To setup pre-commit on staged files, first setup a lint-staged script in `packag
 {
   ...
   "lint-staged": {
+    "*.{js}": [
+      "eslint --fix"
+    ],
     "*.{js,css}": [
       "prettier --write"
     ]
