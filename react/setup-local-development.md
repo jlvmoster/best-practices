@@ -81,7 +81,7 @@ husky install
 Install the react app eslint config package
 
 ```
-npm i -D eslint-config-react-app
+npm i -D eslint-config-react-app eslint-config-prettier
 ```
 
 In your `package.json` or a separate `.eslintrc.json`, setup your linting rules:
@@ -95,7 +95,7 @@ In your `package.json` or a separate `.eslintrc.json`, setup your linting rules:
     "globals": {
       "__PATH_PREFIX__": true
     },
-    "extends": "react-app",
+    "extends": ["react-app", "prettier"],
     "rules": {
       "react/jsx-pascal-case": "off"
     }
@@ -111,7 +111,7 @@ module.exports = {
   globals: {
     __PATH_PREFIX__: true,
   },
-  extends: 'react-app',
+  extends: ['react-app', 'prettier'],
   rules: {
     'react/jsx-pascal-case': 'off'
   }
