@@ -11,7 +11,7 @@ npm i -D prettier husky lint-staged
 
 ### Prettier
 
-Then create a `.prettierrc` file with your preferred styling rules. Here's mine:
+Then create a `.prettierrc.json` file with your preferred styling rules. Here's mine:
 
 ```
 {
