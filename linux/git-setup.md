@@ -12,6 +12,7 @@ sudo apt update & sudo apt install -y git
 curl -L https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o .git-prompt.sh
 ```
 
+```
 1) Copy this file to somewhere (e.g. ~/.git-prompt.sh).
 2) Add the following line to your .bashrc/.zshrc:
    source ~/.git-prompt.sh
@@ -34,6 +35,7 @@ curl -L https://raw.githubusercontent.com/git/git/master/contrib/completion/git-
       followed by colon, cwd, dollar and SP, as your prompt.
     Optionally, you can supply a third argument with a printf
     format string to finetune the output of the branch status
+```
 
 
 ### Install and configure git completion
@@ -41,8 +43,10 @@ curl -L https://raw.githubusercontent.com/git/git/master/contrib/completion/git-
 curl -L https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o .git-completion.bash
 ```
 
+```
 1) Copy this file to somewhere (e.g. ~/.git-completion.bash).
 2) Add the following line to your .bashrc/.zshrc:
    source ~/.git-completion.bash
 3) Consider changing your PS1 to also show the current branch,
    see git-prompt.sh for details.
+```
