@@ -67,6 +67,11 @@ Login as root and rename `pi` to `jalo`:
 usermod -l jalo pi
 ```
 
+Rename `pi` group as well:
+```
+groupmod -n jalo pi
+```
+
 Rename the home directory to `jalo`:
 ```
 usermod -m -d /home/jalo jalo
