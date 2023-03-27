@@ -21,3 +21,36 @@ Register the newly created private key with the ssh-agent:
 ```
 ssh-add ~/.ssh/id_rsa
 ```
+
+## Setting up SSH Access on a Raspberry Pi
+
+Use Raspberry Pi Imager and enable ssh access by default with the `authorized_keys` field populated with the desired `ssh-rsa` public key of your local machine.
+
+### Only Use Public Key Authentication for SSH Access
+
+Modify `/etc/ssh/sshd_config` and change the following:
+```diff
+- #PubkeyAuthentication yes
++ PubkeyAuthentication yes
+
+- PasswordAuthentication yes
++ PasswordAuthentication no
+```
+
+### Rename `pi` User to Your Desired Name
+
+Set password for `root` (temporary)
+```
+sudo passwd
+```
+
+Enable SSH root access (temporary) by modifying `/etc/ssh/sshd_config` with the following changes:
+```diff
+- #PermitRootLogin prohibit-password
++ PermitRootLogin yes
+```
+
+Restart ssh service
+```
+sudo service ssh restart
+```
