@@ -59,3 +59,15 @@ Restart ssh service
 ```
 sudo service ssh restart
 ```
+
+### Rename Default `pi` User to Desired Username
+
+Login as root and rename `pi` to `jalo`:
+```
+usermod -l jalo pi
+```
+
+Rename the home directory to `jalo`:
+```
+usermod -m -d /home/jalo jalo
+```
