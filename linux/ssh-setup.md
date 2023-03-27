@@ -37,17 +37,22 @@ Modify `/etc/ssh/sshd_config` and change the following:
 + PasswordAuthentication no
 ```
 
-### Rename `pi` User to Your Desired Name
-
-Set password for `root` (temporary)
-```
-sudo passwd
-```
+### Set SSH Access for `root` User
 
 Enable SSH root access (temporary) by modifying `/etc/ssh/sshd_config` with the following changes:
 ```diff
 - #PermitRootLogin prohibit-password
-+ PermitRootLogin yes
++ PermitRootLogin prohibit-password
+```
+
+Make the `.ssh` directory and add desired public key to the `.ssh/authorized_keys` file:
+```
+sudo su
+cd /root
+mkdir .ssh
+chmod 700 .ssh
+echo "<my public rsa key>" >> authorized_keys
+chmod 600 authorized_keys
 ```
 
 Restart ssh service
