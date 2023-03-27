@@ -76,3 +76,9 @@ Rename the home directory to `jalo`:
 ```
 usermod -m -d /home/jalo jalo
 ```
+
+Rename and modify `/etc/sudoers.d/010_pi-nopasswd` with `visudo`:
+```diff
+- pi ALL=(ALL) NOPASSWD: ALL
++ jalo ALL=(ALL) NOPASSWD: ALL
+```
