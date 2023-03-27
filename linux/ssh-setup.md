@@ -51,8 +51,8 @@ sudo su
 cd /root
 mkdir .ssh
 chmod 700 .ssh
-echo "<my public rsa key>" >> authorized_keys
-chmod 600 authorized_keys
+echo "<my public rsa key>" >> .ssh/authorized_keys
+chmod 600 .ssh/authorized_keys
 ```
 
 Restart ssh service
