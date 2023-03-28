@@ -15,5 +15,5 @@ echo "deb [signed-by=/etc/apt/trusted.gpg.d/kubernetes-archive-keyring.gpg] http
 
 Install `kubectl`
 ```
-sudo apt install kubectl
+sudo apt update & sudo apt install kubectl -y
 ```
