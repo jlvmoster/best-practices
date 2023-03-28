@@ -12,3 +12,8 @@ Add the Kubernetes `apt` repository
 ```
 echo "deb [signed-by=/etc/apt/trusted.gpg.d/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
 ```
+
+Install `kubectl`
+```
+sudo apt install kubectl
+```
