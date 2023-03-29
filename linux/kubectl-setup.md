@@ -4,7 +4,7 @@
 
 Install gpg keys to the `trusted.gpg.d` directory
 ```
-sudo curl -fsSLo /etc/apt/trusted.gpg.d/kubernetes-archive-keyring.gpg https://packages.cloud.g
+sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.g
 oogle.com/apt/doc/apt-key.gpg
 ```
 
