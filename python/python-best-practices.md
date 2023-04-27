@@ -1,5 +1,12 @@
 # General Python Best Practices
 
+## Check For Outdated Modules
+
+Run the following command to list outdated modules:
+```bash
+python -m pip list --outdated
+```
+
 ## Create a Virtual Environment With `venv`:
 
 Run `venv` in a directory to create a virtual python environment:
