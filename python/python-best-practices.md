@@ -1,6 +1,6 @@
 # General Python Best Practices
 
-## Check For Outdated Modules
+## Check For Outdated Packages
 
 Run the following command to list outdated modules:
 ```bash
