@@ -32,10 +32,10 @@ Disable the following execution aliases from the Windows `Settings -> Apps -> Ad
 
 Check the `python` command:
 ```powershell
-(Get-Command python).Path
+Get-Command python | Select-Object -Property Path
 ```
 
 Check the `pip` command:
 ```powershell
-(Get-Command pip).Path
+Get-Command pip | Select-Object -Property Path
 ```
