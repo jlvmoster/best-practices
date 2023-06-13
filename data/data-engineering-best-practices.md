@@ -16,6 +16,10 @@
 - Schema: does your schema change often? (frequent change indicates broken data)
 - Lineage: answers questions like which upstream sources and downstream ingestors were impacted, as well as which teams are generating data and who is accessing it?
 
+## Data Orchestration
+
+> Data orchestration is the process of harvesting data from a variety of data sources for the purpose of combining and organizing it.
+
 ## Data Governance (DG)
 
 > Data governance is everything you do to ensure data is secure, private, accurate, available, and usable. It includes the actions people must take, the processes they must follow, and the technology that supports them throughout the data life cycle.
