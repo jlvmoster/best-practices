@@ -16,6 +16,10 @@
 - Schema: does your schema change often? (frequent change indicates broken data)
 - Lineage: answers questions like which upstream sources and downstream ingestors were impacted, as well as which teams are generating data and who is accessing it?
 
+## Star Schema
+
+> A multi-dimensional data model used to organize data in a database so that it is easy to understand and analyze.
+
 ## Medallion Architecture
 
 > A data design pattern used to logically organize data in a **lakehouse**, with the goal of incrementally and progressively improving the structure and quality of data as it flows through each layer of the architecture (Bronze => Silver => Gold). Also known as a "multi-hop" architecture.
