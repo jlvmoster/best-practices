@@ -44,6 +44,8 @@
 
 ## Data Reconciliation
 
+> Data reconciliation is defined as the process of verifying data during data migration. In-process target data is compared against source data to ensure that migration happens as expected.
+
 During the data migration process, it is possible for mistakes to happen when performing mapping and transformation logic. Issues like runtime failures such as network dropouts or broken transactions can lead to data corruption.
 
 These errors can lead to invalid data and can create a range of issues like:
