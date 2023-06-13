@@ -41,3 +41,15 @@
 ### Data Reliability
 
 > Data reliability does more than assessing completeness and accuracy; it necessitates considering how data quality evolves across diverse real-world conditions over time. Defines SLAs, SLIs (Service Level Indicator), and SLOs (Service Level Objective).
+
+## Data Reconciliation
+
+During the data migration process, it is possible for mistakes to happen when performing mapping and transformation logic. Issues like runtime failures such as network dropouts or broken transactions can lead to data corruption.
+
+These errors can lead to invalid data and can create a range of issues like:
+- Missing records
+- Missing values
+- Incorrect values
+- Duplicated records
+- Badly formatted values
+- Broken relationships across tables/systems
