@@ -1,6 +1,12 @@
 # Best Practices for Behavior Driven Design
 
-Definition of BDD from SAFe https://scaledagileframework.com/behavior-driven-development/
+Definition of BDD from SAFe https://scaledagileframework.com/behavior-driven-development/, and from SmartBear https://cucumber.io/docs/bdd/.
+
+The three practices: `Discovery`, `Formulation`, and `Automation`
+
+## Acceptance Criteria
+
+Template: `As a`, `I want`, and `So that`
 
 ## Gherkin Syntax
 
