@@ -16,27 +16,31 @@
 - Schema: does your schema change often? (frequent change indicates broken data)
 - Lineage: answers questions like which upstream sources and downstream ingestors were impacted, as well as which teams are generating data and who is accessing it?
 
+## Medallion Architecture
+
+> A data design pattern used to logically organize data in a **lakehouse**, with the goal of incrementally and progressively improving the structure and quality of data as it flows through each layer of the architecture (Bronze => Silver => Gold). Also known as a "multi-hop" architecture.
+
 ## Data Orchestration
 
-> Data orchestration is the process of harvesting data from a variety of data sources for the purpose of combining and organizing it.
+> The process of harvesting data from a variety of data sources for the purpose of combining and organizing it.
 
-## Data Governance (DG)
+## Data Governance
 
 > Data governance is everything you do to ensure data is secure, private, accurate, available, and usable. It includes the actions people must take, the processes they must follow, and the technology that supports them throughout the data life cycle.
 
 ### Data Stewardship
 
-> A subset of DG which focuses on the core values such as data management and oversight in order to help provide business users with high-quality data that is easily accessible in a consistent manner.
+> A subset of data governance which focuses on the core values such as data management and oversight in order to help provide business users with high-quality data that is easily accessible in a consistent manner.
 
 ## Data Lineage
 
-> Data lineage is the process of tracking the flow of data over time, providing a clear understanding of where the data originated, how it was changed, and its ultimate destination within the data pipeline.
+> The process of tracking the flow of data over time, providing a clear understanding of where the data originated, how it was changed, and its ultimate destination within the data pipeline.
 
 ## Data Quality vs Data Reliability
 
 ### Data Quality
 
-> Data quality covers the **six dimensions** of accuracy, completeness, consistency, timeliness, validity, and uniqueness.
+> Covers the **six dimensions** of accuracy, completeness, consistency, timeliness, validity, and uniqueness.
 
 ### Data Reliability
 
@@ -44,7 +48,7 @@
 
 ## Data Reconciliation
 
-> Data reconciliation is defined as the process of verifying data during data migration. In-process target data is compared against source data to ensure that migration happens as expected.
+> The process of verifying data during data migration. In-process target data is compared against source data to ensure that migration happens as expected.
 
 During the data migration process, it is possible for mistakes to happen when performing mapping and transformation logic. Issues like runtime failures such as network dropouts or broken transactions can lead to data corruption.
 
