@@ -15,3 +15,7 @@
 ### Data Stewardship
 
 > A subset of DG which focuses on the core values such as data management and oversight in order to help provide business users with high-quality data that is easily accessible in a consistent manner.
+
+## Data Lineage
+
+> Data lineage is the process of tracking the flow of data over time, providing a clear understanding of where the data originated, how it was changed, and its ultimate destination within the data pipeline.
