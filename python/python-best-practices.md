@@ -16,7 +16,7 @@ Run the following command to list outdated modules:
 pip list --outdated
 ```
 
-## Create a Virtual Environment With `venv` [DEPRECATED - USE PYENV INSTEAD]:
+## Create a Virtual Environment With `venv` [DEPRECATED IN LIEU OF PYENV]
 
 <del>
 
