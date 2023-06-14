@@ -39,7 +39,7 @@ deactivate
 
 ## Self Update Pip
 
-Update pip with the `-U` flag which is shorthand notation for `--upgrade`:
+Update pip with the `--user` flag for local user install and the `-U` flag which is shorthand notation for `--upgrade`:
 ```bash
 pip install --user -U pip
 ```
