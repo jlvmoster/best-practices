@@ -41,5 +41,5 @@ deactivate
 
 Update pip with the `-U` flag which is shorthand notation for `--upgrade`:
 ```bash
-pip install -U pip
+pip install --user -U pip
 ```
