@@ -1,13 +1,24 @@
 # General Python Best Practices
 
+## Install Pyenv and Poetry as the De Facto Modern Python Environment
+
+Install pyenv by following these [instructions](https://github.com/pyenv/pyenv#installation).
+
+Install poetry after installing the specified Python version with pyenv like so:
+```bash
+pip install poetry
+```
+
 ## Check For Outdated Packages
 
 Run the following command to list outdated modules:
 ```bash
-python -m pip list --outdated
+pip list --outdated
 ```
 
-## Create a Virtual Environment With `venv`:
+## Create a Virtual Environment With `venv` [DEPRECATED - USE PYENV INSTEAD]:
+
+<del>
 
 Run `venv` in a directory to create a virtual python environment:
 ```bash
@@ -24,9 +35,11 @@ Deactive when finished:
 deactivate
 ```
 
+</del>
+
 ## Self Update Pip
 
 Update pip with the `-U` flag which is shorthand notation for `--upgrade`:
 ```bash
-python -m pip install -U pip
+pip install -U pip
 ```
