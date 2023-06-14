@@ -1,11 +1,14 @@
 # Setting up ANY python version on Windows
 
-## Install Desired Python Version
-Go to https://www.python.org/ and install your desired version of Python for Windows using the recommended Windows `.exe` installer.
+## Install Desired Python Version [DEPRECATED IN LIEU OF PYENV]
 
-Install for just the current user and DO NOT check the `Add Python to the environment variables` advanced option.
+~Go to https://www.python.org/ and install your desired version of Python for Windows using the recommended Windows `.exe` installer.~
 
-## Setup Environment Variable Manually
+~Install for just the current user and DO NOT check the `Add Python to the environment variables` advanced option.~
+
+## Setup Environment Variable Manually [DEPRECATED IN LIEU OF PYENV]
+
+<del>
 
 Set the `USER` environment variable `CURRENT_PYTHON` to the path pointing to the local user `Python 3.9` root directory:
 ```powershell
@@ -21,6 +24,8 @@ Append the newly added `CURRENT_PYTHON` environment variable and the `Scripts` d
         [System.EnvironmentVariableTarget]::User) + ';%CURRENT_PYTHON%\;%CURRENT_PYTHON%\Scripts', `
     [System.EnvironmentVariableTarget]::User)
 ```
+
+</del>
 
 ## Disable Windows Apps Execution Aliases for Python App Installers
 
