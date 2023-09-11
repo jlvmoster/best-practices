@@ -18,4 +18,4 @@ MongoDB, Express, React, Node
 
 JavaScript, API, Markup
 
-> Note: My personal favorite with jamstack is Next.js + a headless CMS hosted by Vercel, Netlify or your preferred hosting platform
+> Note: My personal favorite with jamstack is `Next.js` + a headless CMS hosted by Vercel, Netlify or your preferred hosting platform
