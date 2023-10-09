@@ -13,7 +13,7 @@ npm i -D prettier husky lint-staged
 
 Then create a `.prettierrc.json` file with your preferred styling rules. Here's mine:
 
-```
+```json
 {
   "arrowParens": "avoid",
   "bracketSpacing": true,
@@ -56,7 +56,7 @@ To setup pre-commit on staged files, first setup a lint-staged script in `packag
 
 (optional) Setup a `lintstagedrc.js` file for `Next.js` projects to utilize the `next lint` command:
 
-```
+```javascript
 const path = require('path')
 
 const buildEslintCommand = (filenames) =>
@@ -126,7 +126,7 @@ In your `package.json` or a separate `.eslintrc.json`, setup your linting rules:
 
 ### .eslintrc.json
 
-```
+```json
 {
   "globals": {
     "__PATH_PREFIX__": true
