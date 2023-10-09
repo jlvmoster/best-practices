@@ -54,7 +54,7 @@ To setup pre-commit on staged files, first setup a lint-staged script in `packag
 }
 ```
 
-(optional) Setup a `lintstagedrc.js` file for `Next.js` projects to utilize the `next lint` command:
+(optional) Setup a `.lintstagedrc.js` file for `Next.js` projects to utilize the `next lint` command:
 
 ```javascript
 const path = require('path')
