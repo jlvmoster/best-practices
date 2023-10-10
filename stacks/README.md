@@ -19,3 +19,9 @@ MongoDB, Express, React, Node
 JavaScript, API, Markup
 
 > Note: My personal favorite with jamstack is `Next.js` + a headless CMS hosted by Vercel, Netlify or your preferred hosting platform
+
+### NEAT
+
+Netlify CMS, Eleventy, AlpineJS, TailwindCSS
+
+> Source: https://blog.surjithctly.in/neat-stack-create-a-static-website-with-netlify-cms-eleventy-alpinejs-and-tailwindcss
