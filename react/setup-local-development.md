@@ -19,7 +19,7 @@ Then create a `.prettierrc.json` file with your preferred styling rules. Here's 
   "bracketSpacing": true,
   "endOfLine": "auto",
   "jsxSingleQuote": true,
-  "printWidth": 120,
+  "printWidth": 80,
   "semi": true,
   "singleQuote": true,
   "tabWidth": 2,
