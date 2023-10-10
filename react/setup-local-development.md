@@ -29,9 +29,9 @@ Then create a `.prettierrc.json` file with your preferred styling rules. Here's 
 
 Create a `.prettierignore` to exclude unneeded files (if necessary):
 ```
-.cache/
-.idea/
-node_modules/
+.cache
+.idea
+node_modules
 ```
 
 ### Husky and Lint-Staged
