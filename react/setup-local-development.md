@@ -73,13 +73,19 @@ module.exports = {
 Next, setup husky to install a pre-commit hook on `npm install` by adding an `npm prepare` script:
 
 ```
-npm pkg set scripts.prepare="husky install"
+npm pkg set scripts.prepare="husky"
 ```
 
 Run husky init
 
 ```
 npx husky init
+```
+
+Set pre-commit hook
+
+```
+echo "npx lint-staged" > .husky/pre-commit
 ```
 
 ## (Optional) Setup Eslint
