@@ -76,24 +76,10 @@ Next, setup husky to install a pre-commit hook on `npm install` by adding an `np
 npm pkg set scripts.prepare="husky install"
 ```
 
-Run husky install
+Run husky init
 
 ```
-npx husky
-```
-
-Then create and install the hook:
-
-```
-npx husky add .husky/pre-commit "npx lint-staged"
-```
-
-(note: Make sure to add the .husky/pre-commit file to git)
-
-Finally, run husky install one more time to install the pre-commit hook:
-
-```
-husky install
+npx husky init
 ```
 
 ## (Optional) Setup Eslint
