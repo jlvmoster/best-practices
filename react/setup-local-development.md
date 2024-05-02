@@ -79,7 +79,7 @@ npm pkg set scripts.prepare="husky install"
 Run husky install
 
 ```
-husky install
+npx husky
 ```
 
 Then create and install the hook:
