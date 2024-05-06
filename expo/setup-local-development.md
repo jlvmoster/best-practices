@@ -10,7 +10,7 @@ Following this [documentation](https://docs.expo.dev/guides/using-eslint/), run 
 npm i -D eslint@8 prettier eslint-config-universe
 ```
 
-## Create an ESLint config file called .eslintrc.js in the project root
+## Create an ESLint config file called `.eslintrc.js` in the project root
 
 ```javascript
 module.exports = {
