@@ -32,6 +32,7 @@ Create a `.prettierignore` to exclude unneeded files (if necessary):
 .cache
 .idea
 node_modules
+package-lock.json
 ```
 
 ### Husky and Lint-Staged
@@ -128,4 +129,9 @@ In your `package.json` or a separate `.eslintrc.json`, setup your linting rules:
     "react/jsx-pascal-case": "off"
   }
 }
+```
+
+Create a `.eslintignore` to exclude unneeded files (if necessary):
+```
+node_modules
 ```
