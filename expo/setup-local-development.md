@@ -25,7 +25,7 @@ module.exports = {
 };
 ```
 
-## ESLint is slow? Add an ignore file
+## ESLint is slow? Add an `.eslintignore` file
 
 ```
 .expo
