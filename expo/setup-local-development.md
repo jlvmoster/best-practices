@@ -7,7 +7,7 @@
 Following this [documentation](https://docs.expo.dev/guides/using-eslint/), run the command below:
 
 ```
-npm i -D eslint@8 prettier eslint-config-universe
+npm i -D eslint prettier eslint-config-universe
 ```
 
 ## Create an ESLint config file called `.eslintrc.js` in the project root
