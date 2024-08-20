@@ -101,5 +101,5 @@ npx husky init
 Set pre-commit hook
 
 ```
-echo "npx lint-staged" > .husky/pre-commit
+echo "lint-staged" > .husky/pre-commit
 ```
